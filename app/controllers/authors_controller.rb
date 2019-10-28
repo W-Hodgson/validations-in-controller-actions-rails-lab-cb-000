@@ -12,7 +12,7 @@ class AuthorsController < ApplicationController
       @author.save
       redirect_to author_path(@author)
     end
-    
+
   end
 
   private
